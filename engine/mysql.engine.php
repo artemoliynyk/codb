@@ -1,36 +1,38 @@
 <?php
 	/*
 	*	Commodum database ( CoDB ) library, tiny DB manipulation wrapper
-	*	Copyright (C) 2013 customhost.com.ua
-	*	
-	*	This program is free software; you can redistribute it and/or modify
-	*	it under the terms of the GNU General Public License as published by
-	*	the Free Software Foundation; either version 2 of the License, or
-	*	(at your option) any later version.
-	*	
-	*	This program is distributed in the hope that it will be useful,
-	*	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	*	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	*	GNU General Public License for more details.
 	*
-	*	You should have received a copy of the GNU General Public License along
-	*	with this program; if not, write to the Free Software Foundation, Inc.,
-	*	51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+	*	MIT License
+	*	Copyright (C) 2013 Artem Oliynyk <https://artemoliynyk.com>
+	*
+	*	Permission is hereby granted, free of charge, to any person obtaining a copy
+	*	of this software and associated documentation files (the "Software"), to deal
+	*	in the Software without restriction, including without limitation the rights
+	*	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	*	copies of the Software, and to permit persons to whom the Software is
+	*	furnished to do so, subject to the following conditions:
+	*
+	*	The above copyright notice and this permission notice shall be included in all
+	*	copies or substantial portions of the Software.
+	*
+	*	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	*	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	*	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	*	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	*	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	*	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	*	SOFTWARE.
 	*/
 	
 	
 	/**
 	*	CODB :: MySQL engine
 	*	Commodum DB - is advanced lihtweight object DataBase engine wrapper
-	*	This code is non-free, you cannon to modify, sell or distribute it.
-	*	Intellectual property of the Customhost ( customhost.com.ua )
 	*/
 
 	/**	\file mysql.engine.php
 	*	\brief <b>Commodum DB — MySQL interface implementation</b> \n
 	*	MySQL API bind for CODB, advanced lightweight object DataBase engine wrapper \n
-	*	This code is non-free, you cannon to modify, sell or distribute it. \n
-	*	\author Intellectual property of the Custom Host ( customhost.com.ua )
 	*/
 
 	class codb_mysql extends codb {
