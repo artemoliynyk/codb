@@ -1,0 +1,3 @@
+doc/*
+!doc/build_doc.sh
+logo_draft.svg

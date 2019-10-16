@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <title>AMF3</title>
+    <parser>
+        <target>doc</target>
+        <!--<markers>
+            <item>TODO</item>
+            <item>FIXME</item>
+        </markers>-->
+        <extensions>
+            <extension>php</extension>
+        </extensions>
+        <visibility></visibility>
+    </parser>
+    <transformer>
+        <target>output</target>
+    </transformer>
+    <logging>
+        <level>debug</level>
+        <paths>
+            <default>phpdoc.log</default>
+            <errors>phpdoc.errors.log</errors>
+        </paths>
+    </logging>
+    <transformations>
+        <template name="customhost" />
+    </transformations>
+    <files>
+	<directory>engine/</directory>
+	<file>codb.class.php</file>
+    </files>
+</phpdoc>
